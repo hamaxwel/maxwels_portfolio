@@ -1,5 +1,8 @@
 import { FaJs, FaReact, FaPython, FaBootstrap } from "react-icons/fa";
 import { SiTailwindcss, SiFlask, SiFastapi } from "react-icons/si";
+import myImage from "./assets/images/max.png";
+import studybuddy from "./assets/images/studybuddy.png";
+import Tracewise from "./assets/images/tracewise.png";
 
 const logotext = "MAXWEL";
 
@@ -16,7 +19,7 @@ const introdata = {
         third: "I create mobile apps with React Native",
     },
     description: "Passionate about crafting efficient and scalable solutions, I specialize in full-stack development and cybersecurity. I enjoy turning complex problems into simple, beautiful, and intuitive designs.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d", 
+    your_img_url:  myImage, 
 };
 
 const dataabout = {
@@ -66,19 +69,15 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "Eva Writers - An assignment help platform built with React and Flask.",
-        link: "#",
+        img: studybuddy, 
+        description: "StudyBuddy - An E-learning platform that helps students across the country access quality education.",
+        link: "https://studybuddy.africa",
     },
+
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "Automated Donation Platform - A platform for managing charitable donations securely.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "Bodaa Riders Saving App - A financial management tool for boda-boda riders.",
-        link: "#",
+        img: Tracewise, 
+        description: "Tracewise is a decentralized SaaS platform enabling transparent, traceable supply chain management, leveraging blockchain for data integrity and security.",
+        link: "tracewise.vercel.app",
     },
 ];
 

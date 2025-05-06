@@ -1,0 +1,7 @@
+name = "react-portfolio"
+type = "webpack"  # or "javascript" if you're not using webpack
+compatibility_date = "2025-05-06"
+
+[site]
+bucket = "./react-portfolio/build"
+entry-point = "./react-portfolio"
